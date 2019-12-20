@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/email"
+            android:title="公众号" />
+        <item
+            android:id="@+id/nav_project_type"
+            android:icon="@drawable/email"
+            android:title="项目分类" />
+        <item
+            android:id="@+id/nav_tool"
+            android:icon="@drawable/email"
+            android:title="工具" />
+        <item
+            android:id="@+id/nav_collect"
+            android:icon="@drawable/email"
+            android:title="收藏" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/email"
+            android:title="关于" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/email"
+            android:title="退出登录" />
+    </group>
+</menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.about.AboutActivity">
+
+    <include layout="@layout/title_layout" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/versionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/text_gray"
+        android:textSize="14sp"
+        tools:text="V 1.0.0" />
+
+    <TextView
+        android:id="@+id/license"
+        style="@style/About_Tv"
+        android:layout_marginTop="20dp"
+        android:text="开源协议" />
+
+    <View style="@style/Line" />
+
+    <TextView
+        android:id="@+id/source"
+        style="@style/About_Tv"
+        android:text="源代码地址" />
+
+    <View style="@style/Line" />
+
+    <TextView
+        android:id="@+id/feedback"
+        style="@style/About_Tv"
+        android:text="意见反馈" />
+
+    <View style="@style/Line" />
+
+    <TextView
+        android:id="@+id/thirdLib"
+        style="@style/About_Tv"
+        android:text="第三方库" />
+
+    <View style="@style/Line" />
+
+    <TextView
+        android:id="@+id/developer"
+        style="@style/About_Tv"
+        android:text="开发者" />
+
+    <View style="@style/Line" />
+
+</LinearLayout>
